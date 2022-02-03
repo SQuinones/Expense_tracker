@@ -60,7 +60,7 @@ function generateID() {
     item.classList.add(transaction.amount < 0 ? 'minus' : 'plus');
   
     item.innerHTML = `
-    //Math provides mathematics functionalities
+    
       ${transaction.text} <span>${sign}${Math.abs(
       transaction.amount
     )}</span> <button class="delete-btn" onclick="removeTransaction(${
