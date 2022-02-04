@@ -8,5 +8,5 @@ Keep track of income and expenses. Add and remove items and save to local storag
 - Display transaction items in DOM
 - Show balance, expense and income totals
 - Add new transaction and reflect in total
-- Delete items form DOM 
+- Delete items from DOM 
 - Persist to local storage
